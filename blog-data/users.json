@@ -1,0 +1,16 @@
+[
+  {
+    "username": "admin",
+    "email": "admin@nextblog.local",
+    "name": "Default Admin",
+    "slug": "admin",
+    "bio": "Default administrator account",
+    "password": "6ab8178d211293a22af3d62c0f1c6efbba667d0ad49222693ae7906e05706052f7eca68e3285c613b548551330f16228",
+    "permissions": [
+      "all:all"
+    ],
+    "createdAt": 1745173195609,
+    "updatedAt": 1745173195609,
+    "_id": "89f313cd-0e2c-4e34-b1ff-c89ff1c2a861"
+  }
+]
