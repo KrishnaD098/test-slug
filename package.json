@@ -11,6 +11,7 @@
     "build": "npm run build:all",
     "dev": "npm run dev:all",
     "build:all": "npm run build:ui && npm run build:dashboard && npm run build:core",
+    "vercel-build": "./build.sh",
     "dev:all": "./dev.sh",
     "build:ui": "cd packages/ui && npm run build",
     "build:dashboard": "cd packages/dashboard && npm run build",

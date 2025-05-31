@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "buildCommand": "bun install && bun run vercel-build",
+  "outputDirectory": "packages/test-app/.next",
+  "installCommand": "bun install",
+  "devCommand": "bun run dev:all",
+  "framework": "nextjs",
+  "builds": [
+    {
+      "src": "packages/test-app/next.config.js",
+      "use": "@vercel/next"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/packages/test-app/$1"
+    }
+  ],
+  "functions": {
+    "packages/test-app/app/api/next-blog/[...page]/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}

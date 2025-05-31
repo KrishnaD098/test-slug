@@ -1,0 +1,7 @@
+.git
+node_modules
+packages/*/node_modules
+**/dist
+**/build
+README.md
+.idea
